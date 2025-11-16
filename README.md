@@ -9,20 +9,20 @@ El programa funciona en consola e implementa:
 
 ---
 
-## 🧩 Patrones de Diseño Implementados
+## Patrones de Diseño Implementados
 
-### ✔ 1. Factory Method (Creacional)
+### 1. Factory Method (Creacional)
 Se usa para crear distintos tipos de citas médicas sin condicionales complejos.  
 Permite extender el sistema fácilmente añadiendo nuevos tipos de citas.
 
-### ✔ 2. Decorator (Estructural)
+### 2. Decorator (Estructural)
 Agrega funcionalidades adicionales a la cita sin modificar la clase original:
 - Recordatorio por Email
 - Guardado en Historial
 
 Permite extender comportamiento sin afectar la estructura base.
 
-### ✔ 3. Observer (Comportamiento)
+### 3. Observer (Comportamiento)
 Se utiliza para enviar notificaciones automáticas cuando se registra una cita.  
 Los observadores incluidos son:
 - Notificador por Email  
@@ -32,7 +32,7 @@ Ambos reciben e imprimen el mensaje final incluyendo los datos de la cita.
 
 ---
 
-## 📘 Caso de Uso
+## Caso de Uso
 El usuario **id123** agenda una cita médica. El sistema:
 1. Genera la cita con Factory Method  
 2. Le añade funcionalidades extra mediante Decorator  
@@ -43,4 +43,4 @@ El usuario **id123** agenda una cita médica. El sistema:
 
 ---
 
-## ▶ Ejecución
+## Ejecución
